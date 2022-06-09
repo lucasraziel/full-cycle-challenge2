@@ -1,0 +1,7 @@
+data
+coverage
+dist
+mysql
+docker*
+Docker*
+node_modules

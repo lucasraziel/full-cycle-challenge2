@@ -12,13 +12,4 @@ module.exports = {
     '^(\\.{1,2}/.*)\\.js$': '$1',
   },
   extensionsToTreatAsEsm: ['.ts'],
-  collectCoverage: true,
-  coverageThreshold: {
-    global: {
-      branches: 100,
-      functions: 100,
-      lines: 80,
-      statements: 100,
-    },
-  },
 };
