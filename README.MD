@@ -45,3 +45,5 @@ To have access to API through port 8080, execute following command:
 docker compose up --build -d
 
 ```
+
+Lucas Rego
