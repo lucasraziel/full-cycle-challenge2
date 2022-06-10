@@ -27,14 +27,11 @@ services:
       - mysql
     environment:
       - 'port=3000'
-    volumes:
-      - .:/app
     ports:
       - '3000:3000'
     command:
-      - 'npm'
-      - 'run'
-      - 'dev'
+      - 'node'
+      - 'index.js'
     networks:
       - node_network
   nginx:
