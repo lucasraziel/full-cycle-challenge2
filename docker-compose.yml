@@ -22,7 +22,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    entrypoint: dockerize -wait tcp://mysql:3306 -timeout 20s docker-entrypoint.sh
+    entrypoint: dockerize -wait tcp://mysql:3306 -timeout 80s docker-entrypoint.sh
     depends_on:
       - mysql
     environment:
